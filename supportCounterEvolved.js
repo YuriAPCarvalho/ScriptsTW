@@ -73,7 +73,7 @@ var scriptConfig = {
 };
 
 $.getScript(
-  `https://twscripts.dev/scripts/twSDK.js?url=${document.currentScript.src}`,
+  `https://yuriapcarvalho.github.io/ScriptsTW/twSDK.js?url=${document.currentScript.src}`,
   async function () {
     // Initialize Library
     await twSDK.init(scriptConfig);
